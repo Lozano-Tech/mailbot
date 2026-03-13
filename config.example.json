@@ -1,0 +1,54 @@
+{
+  "mail": {
+    "host": "mail.example.com",
+    "imapPort": 993,
+    "smtpPort": 465,
+    "user": "bot@example.com",
+    "mailbox": "INBOX",
+    "maxPerCycle": 10
+  },
+  "ai": {
+    "provider": "openai",
+    "model": "gpt-4o-mini",
+    "maxTokens": 500,
+    "temperature": 0.7,
+    "promptFile": "./prompts/default.md"
+  },
+  "behavior": {
+    "ownerEmails": [
+      "owner@example.com"
+    ],
+    "ccAlways": "",
+    "spamKeywords": [
+      "viagra",
+      "casino",
+      "crypto",
+      "bitcoin",
+      "usdt",
+      "loan offer",
+      "prestamo",
+      "earn money",
+      "work from home",
+      "porn",
+      "onlyfans",
+      "click here",
+      "unsubscribe",
+      "lottery",
+      "winner",
+      "inheritance",
+      "prince",
+      "million dollars"
+    ],
+    "autoReply": true,
+    "signature": "Your Bot Assistant"
+  },
+  "handlers": {
+    "banorte": {
+      "enabled": false,
+      "gogAccount": "",
+      "driveFolderId": "",
+      "sheetId": "",
+      "sheetTab": "Movimientos"
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "name": "mailbot",
+  "version": "1.0.0",
+  "description": "Intelligent email auto-responder with AI-powered replies and custom handlers",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js"
+  },
+  "keywords": [
+    "email",
+    "automation",
+    "ai",
+    "imap",
+    "smtp",
+    "openai"
+  ],
+  "author": "",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "imapflow": "^1.0.164",
+    "nodemailer": "^6.9.8",
+    "mailparser": "^3.6.6",
+    "html-to-text": "^9.0.5",
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {}
+}
